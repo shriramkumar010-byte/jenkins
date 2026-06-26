@@ -22,6 +22,25 @@
 jobs/**
 !jobs/**/
 
+# Allow the repository files that should be versioned.
+!b24.groovy
+!basicgroovygrailpipeline.groovy
+!devsecops.groovy
+!dummy.groovy
+!eks.groovy
+!ekscreationusingawscli.groovy
+!eksjenkins.tf
+!freeestylyapache2script/
+!freeestylyapache2script/**
+!groovyfileofhttpdpipeline.groovy
+!"For nginx configuration using pipeline and webhooks.txt"
+!Declrative_pipeline_syntax/
+!Declrative_pipeline_syntax/**
+!scripted_pipeline_syntax/
+!scripted_pipeline_syntax/**
+!jenkins-sonarqube/
+!jenkins-sonarqube/**
+
 # Uncomment the following line to save next build numbers with config.
 
 #!jobs/**/nextBuildNumber
